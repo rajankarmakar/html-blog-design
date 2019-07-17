@@ -1,0 +1,204 @@
+body{
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Start NavBar */
+.ledgreen_header{
+    background-color: #fff;
+    height: 75px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, .06);
+    margin-bottom: 20px;
+}
+.ledgreen_nav_container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 991px;
+}
+.ledgreen_nav_container::before,.ledgreen_nav_container::after{
+    content: " ";
+    display: table;
+}
+.ledgreen_text_logo{
+    position: relative;
+    float: left;
+    text-decoration: none;
+    color: #333333;
+}
+.ledgreen_sitename{
+    display: block;
+    margin-top: 24px;
+    color: #333;
+    font-size: 26px;
+    line-height: 100%;
+    text-decoration: none;
+}
+.ledgreen_navclass{
+    position: relative;
+    float: right;
+    margin-top: 26px;
+}
+.ledgreen_item {
+    margin-left: 25px;
+    padding: 15px 0;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 18px;
+}
+.active{
+    color: #000 !important;
+}
+.ledgreen_item:link,.ledgreen_item:visited{
+    color: #aaa;
+}
+.ledgreen_item:hover,.ledgreen_item:active{
+    color: #000;
+}
+/* End NavBar */
+
+/* Start Main content */
+.ledgreen_main_wrap{
+    max-width: 991px;
+    /* box-shadow: 0 0 0 1px rgba(0, 0, 0, .06); */
+    margin: 0 auto;
+}
+.ledgreen_content_wrap{
+    position: relative;
+}
+/* Start Content */
+.ledgreen_content{
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 75%;
+    margin-right: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-top: 0;
+    max-height: 225px;
+    display: inline-flex;
+}
+.ledgreen_conten_section{
+    display: block;
+}
+.ledgreen_left{
+    padding-top: 24px;
+    padding-right: 20px;
+}
+.ledgreen_left img{
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .06);
+}
+.ledgreen_right{}
+.ledgreen_blog_title{}
+.ledgreen_blog_details{
+    display: inline-flex;
+    font-size: 10px;
+    color: #aaa;
+}
+.ledgreen_post_info{}
+.ledgreen_post_category{
+    text-decoration: none;
+    color: #aaa;
+    padding-left: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.ledgreen_post_category:hover{
+    color: #333;
+}
+.ledgreen_post_summary::after{
+}
+.ledgreen_post_text{
+    color: #aaa;
+    font-size: 14px;
+    display: inline;
+    line-height: 25px;
+}
+.ledgreen_read_more{
+    display: inline;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+    font-family: Lato, sans-serif;
+    color: #aaa;
+    font-size: 14px;
+    line-height: 22%;
+    text-decoration: underline;
+}
+.ledgreen_next_post{
+
+}
+.ledgreen_read_more:hover{
+    color: #333;
+}
+
+/* Start Content */
+
+/* Start Sidebar */
+.ledgreen_sidebar{
+    max-width: 20%;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.ledgreen_avater{
+    text-align: center;
+}
+.ledgreen_avater img{
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .06);
+}
+.ledgreen_profile_info{
+
+}
+.ledgreen_profile_info_text{
+
+}
+.ledgreen_grey_rule{
+    width: 90px;
+    height: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #c7c7c7;
+}
+.ledgreen_feature_post a{
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #aaa;
+    text-align: left;
+    text-decoration: none;
+}
+.ledgreen_feature_post_heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 135%;
+    text-align: left;
+}
+.ledgreen_button{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 11px 20px;
+    border-radius: 3px;
+    background-color: #888;
+    -webkit-transition: background-color 200ms ease;
+    transition: background-color 200ms ease;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none
+}
+/* End Sidebar */
+
+/* End Main content */
